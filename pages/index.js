@@ -8,8 +8,8 @@ const App = ({ articles }) => {
       {' '}
       Breaking News:
       <ul>
-        {articles.map((article) => (
-          <li>
+        {articles.map((article, index) => (
+          <li key={index}>
             {article.title}: {article.url}
           </li>
         ))}
