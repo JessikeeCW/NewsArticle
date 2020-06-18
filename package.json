@@ -15,7 +15,7 @@
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
-  "description": "This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/zeit/next.js/tree/canary/packages/create-next-app).",
+  "description": "This a mock news website that pulls from a NewsAPI to display current trending topics",
   "main": "index.js",
   "devDependencies": {},
   "keywords": [],
